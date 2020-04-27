@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+**/node-modules
+
+#.editor
+.idea
+.vscode
+.sln
