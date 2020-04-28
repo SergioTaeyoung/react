@@ -1,8 +1,9 @@
+  
 .DS_Store
 **/.DS_Store
-**/node-modules
+**/node_modules
 
-#.editor
+# editor
 .idea
 .vscode
 .sln
