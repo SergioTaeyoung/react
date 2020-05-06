@@ -8,6 +8,7 @@ export default class CardList extends React.Component {
             key={ card.id }
             title={ card.title }
             description={ card.description }
+            color={ card.color}
             tasks={ card.tasks }
         />));
 
