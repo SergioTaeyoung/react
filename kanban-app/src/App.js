@@ -4,8 +4,9 @@ import data from './data.json';
 
 export default class App extends React.Component{
     render(){
+
         return(
-            <div className='App'>          
+            <div className='App'>                   
                 <KanbanBoard cards={ data }/>
             </div>
         )
