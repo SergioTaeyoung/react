@@ -7,9 +7,12 @@ module.exports = {
     },
     module: {
         rules: [{
-            test: /\.js$/,
+            test: /\.js$/i,
             exclude: /node_modules/,
             loader: 'babel-loader'
+        },{
+            test: /\.css$/i,
+            loader: ['style-loader', 'css-loader']
         }]
     },
     devServer: {

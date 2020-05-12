@@ -1,0 +1,6 @@
+# [project-ex02]
+전통적인 DOM API 기반의 앱
+
+<pre>
+    JavaScript 코드를 여러 JS파일로 나눠서만 작성
+</pre>
